@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2019, 11:59:25 PM
+    Author     : Anna
+*/
+body{
+    background-color: black;
+     background-image: url("images/gru.png");
+     background-repeat:  no-repeat;
+     background-size: 30%;
+     background-position: bottom left;
+     background-attachment: fixed;
+    color:white;
+
+}
+
+a{
+    color:white;
+}
+a:hover{
+    color:red;
+}
+
+.center-div{
+    margin: 0 auto;
+    width:80%;
+}
+    #account {
+    bottom: 0;
+    width: 100%;
+/*    position: -webkit-sticky;*/
+/*position:fixed;*/
+}
+#f1, #f2, #f3{
+    background-color: gray;
+    border-radius: 10px;
+}
